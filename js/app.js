@@ -3431,12 +3431,8 @@
         }
     }), 0);
     let width111 = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    let prosto = document.querySelector(".header");
+    document.querySelector(".header");
     console.log(width111);
-    if (width111 < 500) {
-        prosto.innerHTML = `background: #000;`;
-        console.log("Меньше");
-    }
     window["FLS"] = true;
     isWebp();
     menuInit();
